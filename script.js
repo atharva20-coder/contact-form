@@ -29,7 +29,7 @@ form.addEventListener('submit', e => {
 	}
 
 	if (password === '') {
-		addErrorTo('password', 'Password is required');
+		addErrorTo('password', 'Message is required');
 	} else {
 		removeErrorFrom('password');
 	}
